@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import {getFirestore} from "@firebase/firestore";
 const firebaseConfig = {
     apiKey: "your-api-key",
-    authDomain: "crudwithfirebase-32145.firebaseapp.com",
-    projectId: "crudwithfirebase-32145",
+    authDomain: "your-auth-domain",
+    projectId: "your-project-id",
     storageBucket: "crudwithfirebase-32145.appspot.com",
-    messagingSenderId: "48734389475",
-    appId: "1:48734389475:web:c4bd9503f07d4868a531d6",
-    measurementId: "G-8Z2H22HF1P"
+    messagingSenderId: "your-sender-id",
+    appId: "your-app-id",
+    measurementId: "your-measurement-id"
   };
 
   const app = initializeApp(firebaseConfig);
